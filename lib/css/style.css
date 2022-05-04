@@ -5,30 +5,29 @@ body {
     font-family: 'Cormorant';
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 1rem;
 }
 
-.main-container {
-    width: 1200px;
-    height: 1700px;
-    background-color: rgb(200, 197, 193);
-    margin: 40px auto;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
-}
 .my-proffesion {
-    font-size: 36px;
+    font-size: 1rem;
     font: bold;
 }
 header {
     display: flex;
     justify-content: space-between;
+    flex-shrink: initial;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(200, 197, 193);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
 }
 .my-foto {
-    width: 420px;
+    max-width: 35%;
+    max-height: 35%;
 }
 .my-name {
     background-color: rgb(228, 239, 234);
-    width: 780px;
+    width: 65%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -38,23 +37,23 @@ h1 {
     font-family: 'Cormorant';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 1rem;
     padding-top: 120px;
     color: #000000;
-
     text-shadow: -5px 3px 3px rgba(0, 0, 0, 0.45);
 }
 .my-proffesion {
     font-family: 'Cormorant';
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 1rem;
     padding-bottom: 150px;
     text-shadow: -8px -4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-socials {
     background-color: #1c2541;
+    width: 100%;
     height: 80px;
     display: flex;
     justify-content: space-around;
@@ -65,7 +64,7 @@ h1 {
     flex-direction: row-reverse;
     text-decoration: none;
     color: #9ceaef;
-    font-size: 26px;
+    font-size: 1rem;
     font-weight: bold;
 }
 .social-name {
@@ -73,21 +72,21 @@ h1 {
 }
 .social-icon {
     color: #9ceaef;
-    width: 26px;
+    width: 1rem;
 }
 .about-me-content {
     display: flex;
 }
 .sidebar-content {
     background-color: #9ceaef;
-    width: 420px;
-    height: 1200px;
+    width: 35%;
+    height: 100%;
 }
 .contact-text {
     margin-left: 10px;
     text-decoration: none;
     color: #1c2541;
-    font-size: 24px;
+    font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .contact-icon {
@@ -97,7 +96,7 @@ h1 {
 }
 .content-main {
     background-color: rgb(228, 239, 234);
-    width: 780px;
+    width: 65%;
 }
 h2 {
     margin: 60px 0px 20px 40px;
@@ -107,16 +106,16 @@ h2 {
 li,
 .profile {
     margin-left: 40px;
-    font-size: 24px;
+    font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .my-work-profession {
-    font-size: 22px;
+    font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', bold;
     margin: 20px 0px 10px 40px;
 }
 .my-work-period {
-    font-size: 24px;
+    font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', bold;
     font-style: italic;
     margin: 0px 0px 20px 40px;

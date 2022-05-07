@@ -6,8 +6,23 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 1em;
-    /* box-sizing: border-box; */
+    color: #1c2541;
 }
+
+.main-letter {
+    width: 70%;
+    background-color: rgb(200, 197, 193);
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 767px) {
+    .main-letter {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -29,9 +44,7 @@ header {
 h1 {
     font-style: normal;
     font-weight: 700;
-    /* font-size: 2em; */
     font-size: calc(24px + 16 * ((100vw - 320px) / (1200 - 320)));
-    color: #000000;
     text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.45);
     text-align: center;
 }
@@ -39,12 +52,13 @@ h1 {
     padding-top: 3%;
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .navbar-socials {
     background-color: #1c2541;
-    width: 100%;
+    /* width: 100%; */
     padding: 1% 0%;
     display: flex;
     justify-content: space-around;
@@ -59,7 +73,7 @@ h1 {
     font-weight: bold;
 }
 .social-name {
-    margin-left: 10px;
+    margin-left: 2%;
 }
 .social-icon {
     color: #9ceaef;
@@ -71,13 +85,13 @@ h1 {
 .sidebar-content {
     background-color: #9ceaef;
     width: 35%;
-    height: 100%;
 }
 .contact-text {
-    margin-left: 10px;
+    margin-left: 2%;
     text-decoration: none;
     color: #1c2541;
     font-size: 1em;
+    font-size: calc(10px + 6 * ((100vw - 320px) / (1200 - 320)));
 }
 .contact-icon {
     margin-right: 2%;
@@ -92,18 +106,21 @@ h2 {
     margin: 5% 0px 2% 5%;
     border-bottom: solid #000000;
     text-transform: uppercase;
+    font-size: calc(10px + 6 * ((100vw - 320px) / (1200 - 320)));
 }
 li,
 .profile {
-    margin-left: 10%;
-    font-size: 1em;
+    margin-left: 5%;
+    font-style: italic;
+    font: caption;
+    font-size: calc(10px + 6 * ((100vw - 320px) / (1200 - 320)));
 }
 .my-work-profession {
-    font-size: 1em;
-    margin: 20px 0px 10px 40px;
+    margin: 4% 0px 1% 5%;
+    font-size: calc(10px + 6 * ((100vw - 320px) / (1200 - 320)));
 }
 .my-work-period {
-    font-size: 1em;
-    font-style: italic;
-    margin: 0px 0px 20px 40px;
+    color: rgb(132, 132, 132);
+    margin: 0 0 1% 5%;
+    font-size: calc(10px + 6 * ((100vw - 320px) / (1200 - 320)));
 }
